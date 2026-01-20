@@ -42,9 +42,24 @@ section:last-of-type {
 }
 
 .hero {
+  background: linear-gradient(135deg, #6A1B9A, #F06292);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
   text-align: center;
-  background: #F4F4F4;
-  padding: 80px 20px;
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
 footer {
